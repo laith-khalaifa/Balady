@@ -319,25 +319,25 @@ export default {
       }
     },
 
-    preventLandscapeView() {
-      if (this.is_Rotate()) {
-        document.querySelector(".prevent-view").style.display = "block";
-        document.querySelector(".home").style.display = "none";
-      } else {
-        document.querySelector(".prevent-view").style.display = "none";
-        document.querySelector(".home").style.display = "unset";
-      }
-    },
+    // preventLandscapeView() {
+    //   if (this.is_Rotate()) {
+    //     document.querySelector(".prevent-view").style.display = "block";
+    //     document.querySelector(".home").style.display = "none";
+    //   } else {
+    //     document.querySelector(".prevent-view").style.display = "none";
+    //     document.querySelector(".home").style.display = "unset";
+    //   }
+    // },
 
-    preventLandscapeViewOnPageLoad() {
-      if (this.is_RotateOnPageLaod()) {
-        document.querySelector(".prevent-view").style.display = "block";
-        document.querySelector(".home").style.display = "none";
-      } else {
-        document.querySelector(".prevent-view").style.display = "none";
-        document.querySelector(".home").style.display = "unset";
-      }
-    },
+    // preventLandscapeViewOnPageLoad() {
+    //   if (this.is_RotateOnPageLaod()) {
+    //     document.querySelector(".prevent-view").style.display = "block";
+    //     document.querySelector(".home").style.display = "none";
+    //   } else {
+    //     document.querySelector(".prevent-view").style.display = "none";
+    //     document.querySelector(".home").style.display = "unset";
+    //   }
+    // },
 
     homeStoreQueryList() {
       const pageWidth = document.body.offsetWidth;
