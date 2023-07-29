@@ -239,7 +239,6 @@
                         <i class="fa-solid fa-eye"></i>
                       <span class="d-none"></span>
                     </button>
-                      <router-link :to="{ name: 'product'}">jj</router-link>
                   </div>
                   <img
                     :src="require(`../assets/imgs/prods/${item.name}.jpg`)"
